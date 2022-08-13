@@ -1,0 +1,15 @@
+pipeline {
+    agent any 
+    stages {
+        stage('pull') { 
+            steps {
+               echo 'welcome to alpha project'
+            }
+        }
+         stage('build') { 
+            steps {
+                echo 'welcome to my home town'
+            }
+        }
+    }
+}
